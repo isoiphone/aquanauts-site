@@ -1,0 +1,693 @@
+{
+ "scale": 2,
+ "sprites": {
+  "floor_sand_1": {
+   "file": "floor_sand_1.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 922,
+   "srcH": 553
+  },
+  "floor_sand_2": {
+   "file": "floor_sand_2.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 995,
+   "srcH": 568
+  },
+  "floor_sand_3": {
+   "file": "floor_sand_3.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 931,
+   "srcH": 545
+  },
+  "floor_sand_4": {
+   "file": "floor_sand_4.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 919,
+   "srcH": 467
+  },
+  "floor_sand_5": {
+   "file": "floor_sand_5.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 910,
+   "srcH": 470
+  },
+  "floor_sand_6": {
+   "file": "floor_sand_6.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 980,
+   "srcH": 511
+  },
+  "floor_deck_1": {
+   "file": "floor_deck_1.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 996,
+   "srcH": 661
+  },
+  "floor_deck_2": {
+   "file": "floor_deck_2.png",
+   "w": 128,
+   "h": 64,
+   "anchor": 1,
+   "srcW": 974,
+   "srcH": 611
+  },
+  "floor_kelp_1": {
+   "file": "floor_kelp_1.png",
+   "w": 128,
+   "h": 123,
+   "anchor": 1,
+   "srcW": 804,
+   "srcH": 906
+  },
+  "floor_kelp_2": {
+   "file": "floor_kelp_2.png",
+   "w": 128,
+   "h": 117,
+   "anchor": 1,
+   "srcW": 895,
+   "srcH": 961
+  },
+  "floor_debris_1": {
+   "file": "floor_debris_1.png",
+   "w": 128,
+   "h": 81,
+   "anchor": 1,
+   "srcW": 952,
+   "srcH": 711
+  },
+  "floor_debris_2": {
+   "file": "floor_debris_2.png",
+   "w": 128,
+   "h": 75,
+   "anchor": 1,
+   "srcW": 1000,
+   "srcH": 692
+  },
+  "block_rock_1": {
+   "file": "block_rock_1.png",
+   "w": 128,
+   "h": 84,
+   "anchor": 1,
+   "srcW": 912,
+   "srcH": 702
+  },
+  "block_rock_2": {
+   "file": "block_rock_2.png",
+   "w": 128,
+   "h": 81,
+   "anchor": 1,
+   "srcW": 898,
+   "srcH": 670
+  },
+  "block_rock_3": {
+   "file": "block_rock_3.png",
+   "w": 128,
+   "h": 85,
+   "anchor": 1,
+   "srcW": 940,
+   "srcH": 733
+  },
+  "block_coral_1": {
+   "file": "block_coral_1.png",
+   "w": 128,
+   "h": 106,
+   "anchor": 1,
+   "srcW": 876,
+   "srcH": 851
+  },
+  "block_coral_2": {
+   "file": "block_coral_2.png",
+   "w": 128,
+   "h": 105,
+   "anchor": 1,
+   "srcW": 920,
+   "srcH": 884
+  },
+  "block_wall": {
+   "file": "block_wall.png",
+   "w": 128,
+   "h": 165,
+   "anchor": 1,
+   "srcW": 649,
+   "srcH": 984
+  },
+  "block_wall_corner": {
+   "file": "block_wall_corner.png",
+   "w": 128,
+   "h": 115,
+   "anchor": 1,
+   "srcW": 806,
+   "srcH": 854
+  },
+  "block_hatch_closed": {
+   "file": "block_hatch_closed.png",
+   "w": 128,
+   "h": 135,
+   "anchor": 1,
+   "srcW": 766,
+   "srcH": 950
+  },
+  "block_hatch_open": {
+   "file": "block_hatch_open.png",
+   "w": 128,
+   "h": 137,
+   "anchor": 1,
+   "srcW": 788,
+   "srcH": 990
+  },
+  "block_breach": {
+   "file": "block_breach.png",
+   "w": 128,
+   "h": 86,
+   "anchor": 1,
+   "srcW": 940,
+   "srcH": 740
+  },
+  "wall_panel_1": {
+   "file": "wall_panel_1.png",
+   "w": 128,
+   "h": 96,
+   "anchor": 0,
+   "srcW": 1536,
+   "srcH": 1024
+  },
+  "wall_panel_2": {
+   "file": "wall_panel_2.png",
+   "w": 128,
+   "h": 96,
+   "anchor": 0,
+   "srcW": 1536,
+   "srcH": 1024
+  },
+  "hatch_closed_panel": {
+   "file": "hatch_closed_panel.png",
+   "w": 128,
+   "h": 96,
+   "anchor": 0,
+   "srcW": 1536,
+   "srcH": 1024
+  },
+  "hatch_open_panel": {
+   "file": "hatch_open_panel.png",
+   "w": 128,
+   "h": 96,
+   "anchor": 0,
+   "srcW": 1536,
+   "srcH": 1024
+  },
+  "prop_sub": {
+   "file": "prop_sub.png",
+   "w": 320,
+   "h": 197,
+   "anchor": 1,
+   "srcW": 1249,
+   "srcH": 903
+  },
+  "aquanaut_stand_S": {
+   "file": "aquanaut_stand_S.png",
+   "w": 63,
+   "h": 120,
+   "anchor": 0.7,
+   "srcW": 635,
+   "srcH": 1201
+  },
+  "aquanaut_stand_SE": {
+   "file": "aquanaut_stand_SE.png",
+   "w": 69,
+   "h": 120,
+   "anchor": 0.7,
+   "srcW": 722,
+   "srcH": 1252
+  },
+  "aquanaut_stand_E": {
+   "file": "aquanaut_stand_E.png",
+   "w": 84,
+   "h": 120,
+   "anchor": 0.7,
+   "srcW": 871,
+   "srcH": 1247
+  },
+  "aquanaut_stand_NE": {
+   "file": "aquanaut_stand_NE.png",
+   "w": 72,
+   "h": 120,
+   "anchor": 0.7,
+   "srcW": 737,
+   "srcH": 1227
+  },
+  "aquanaut_stand_N": {
+   "file": "aquanaut_stand_N.png",
+   "w": 71,
+   "h": 120,
+   "anchor": 0.7,
+   "srcW": 748,
+   "srcH": 1263
+  },
+  "aquanaut_crouch_S": {
+   "file": "aquanaut_crouch_S.png",
+   "w": 51,
+   "h": 86,
+   "anchor": 0.7,
+   "srcW": 720,
+   "srcH": 1204
+  },
+  "aquanaut_crouch_SE": {
+   "file": "aquanaut_crouch_SE.png",
+   "w": 63,
+   "h": 86,
+   "anchor": 0.7,
+   "srcW": 855,
+   "srcH": 1163
+  },
+  "aquanaut_crouch_E": {
+   "file": "aquanaut_crouch_E.png",
+   "w": 86,
+   "h": 86,
+   "anchor": 0.7,
+   "srcW": 840,
+   "srcH": 838
+  },
+  "aquanaut_crouch_NE": {
+   "file": "aquanaut_crouch_NE.png",
+   "w": 74,
+   "h": 86,
+   "anchor": 0.7,
+   "srcW": 903,
+   "srcH": 1054
+  },
+  "aquanaut_crouch_N": {
+   "file": "aquanaut_crouch_N.png",
+   "w": 59,
+   "h": 86,
+   "anchor": 0.7,
+   "srcW": 744,
+   "srcH": 1076
+  },
+  "aquanaut_corpse": {
+   "file": "aquanaut_corpse.png",
+   "w": 115,
+   "h": 103,
+   "anchor": 0.9,
+   "srcW": 795,
+   "srcH": 714
+  },
+  "aquanaut_heavy_stand_S": {
+   "file": "aquanaut_heavy_stand_S.png",
+   "w": 69,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 665,
+   "srcH": 1220
+  },
+  "aquanaut_heavy_stand_SE": {
+   "file": "aquanaut_heavy_stand_SE.png",
+   "w": 71,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 665,
+   "srcH": 1186
+  },
+  "aquanaut_heavy_stand_E": {
+   "file": "aquanaut_heavy_stand_E.png",
+   "w": 91,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 809,
+   "srcH": 1116
+  },
+  "aquanaut_heavy_stand_NE": {
+   "file": "aquanaut_heavy_stand_NE.png",
+   "w": 77,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 767,
+   "srcH": 1247
+  },
+  "aquanaut_heavy_stand_N": {
+   "file": "aquanaut_heavy_stand_N.png",
+   "w": 72,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 779,
+   "srcH": 1362
+  },
+  "aquanaut_heavy_crouch_S": {
+   "file": "aquanaut_heavy_crouch_S.png",
+   "w": 55,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 696,
+   "srcH": 1159
+  },
+  "aquanaut_heavy_crouch_SE": {
+   "file": "aquanaut_heavy_crouch_SE.png",
+   "w": 58,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 728,
+   "srcH": 1136
+  },
+  "aquanaut_heavy_crouch_E": {
+   "file": "aquanaut_heavy_crouch_E.png",
+   "w": 82,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 895,
+   "srcH": 997
+  },
+  "aquanaut_heavy_crouch_NE": {
+   "file": "aquanaut_heavy_crouch_NE.png",
+   "w": 69,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 854,
+   "srcH": 1125
+  },
+  "aquanaut_heavy_crouch_N": {
+   "file": "aquanaut_heavy_crouch_N.png",
+   "w": 56,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 685,
+   "srcH": 1109
+  },
+  "aquanaut_heavy_corpse": {
+   "file": "aquanaut_heavy_corpse.png",
+   "w": 115,
+   "h": 103,
+   "anchor": 0.9,
+   "srcW": 871,
+   "srcH": 783
+  },
+  "lobsterman_stand_S": {
+   "file": "lobsterman_stand_S.png",
+   "w": 101,
+   "h": 150,
+   "anchor": 0.7,
+   "srcW": 926,
+   "srcH": 1377
+  },
+  "lobsterman_stand_SE": {
+   "file": "lobsterman_stand_SE.png",
+   "w": 86,
+   "h": 150,
+   "anchor": 0.7,
+   "srcW": 783,
+   "srcH": 1359
+  },
+  "lobsterman_stand_E": {
+   "file": "lobsterman_stand_E.png",
+   "w": 91,
+   "h": 150,
+   "anchor": 0.7,
+   "srcW": 840,
+   "srcH": 1381
+  },
+  "lobsterman_stand_NE": {
+   "file": "lobsterman_stand_NE.png",
+   "w": 97,
+   "h": 150,
+   "anchor": 0.7,
+   "srcW": 924,
+   "srcH": 1423
+  },
+  "lobsterman_stand_N": {
+   "file": "lobsterman_stand_N.png",
+   "w": 92,
+   "h": 150,
+   "anchor": 0.7,
+   "srcW": 856,
+   "srcH": 1393
+  },
+  "lobsterman_crouch_S": {
+   "file": "lobsterman_crouch_S.png",
+   "w": 68,
+   "h": 108,
+   "anchor": 0.7,
+   "srcW": 887,
+   "srcH": 1417
+  },
+  "lobsterman_crouch_SE": {
+   "file": "lobsterman_crouch_SE.png",
+   "w": 66,
+   "h": 108,
+   "anchor": 0.7,
+   "srcW": 842,
+   "srcH": 1381
+  },
+  "lobsterman_crouch_E": {
+   "file": "lobsterman_crouch_E.png",
+   "w": 72,
+   "h": 108,
+   "anchor": 0.7,
+   "srcW": 907,
+   "srcH": 1363
+  },
+  "lobsterman_crouch_NE": {
+   "file": "lobsterman_crouch_NE.png",
+   "w": 75,
+   "h": 108,
+   "anchor": 0.7,
+   "srcW": 923,
+   "srcH": 1336
+  },
+  "lobsterman_crouch_N": {
+   "file": "lobsterman_crouch_N.png",
+   "w": 70,
+   "h": 108,
+   "anchor": 0.7,
+   "srcW": 876,
+   "srcH": 1360
+  },
+  "lobsterman_corpse": {
+   "file": "lobsterman_corpse.png",
+   "w": 115,
+   "h": 80,
+   "anchor": 0.9,
+   "srcW": 899,
+   "srcH": 626
+  },
+  "lizardman_stand_S": {
+   "file": "lizardman_stand_S.png",
+   "w": 74,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 754,
+   "srcH": 1285
+  },
+  "lizardman_stand_SE": {
+   "file": "lizardman_stand_SE.png",
+   "w": 87,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 835,
+   "srcH": 1213
+  },
+  "lizardman_stand_E": {
+   "file": "lizardman_stand_E.png",
+   "w": 107,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 962,
+   "srcH": 1133
+  },
+  "lizardman_stand_NE": {
+   "file": "lizardman_stand_NE.png",
+   "w": 91,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 935,
+   "srcH": 1294
+  },
+  "lizardman_stand_N": {
+   "file": "lizardman_stand_N.png",
+   "w": 85,
+   "h": 126,
+   "anchor": 0.7,
+   "srcW": 809,
+   "srcH": 1201
+  },
+  "lizardman_crouch_S": {
+   "file": "lizardman_crouch_S.png",
+   "w": 61,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 834,
+   "srcH": 1251
+  },
+  "lizardman_crouch_SE": {
+   "file": "lizardman_crouch_SE.png",
+   "w": 83,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 942,
+   "srcH": 1032
+  },
+  "lizardman_crouch_E": {
+   "file": "lizardman_crouch_E.png",
+   "w": 97,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 996,
+   "srcH": 934
+  },
+  "lizardman_crouch_NE": {
+   "file": "lizardman_crouch_NE.png",
+   "w": 78,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 906,
+   "srcH": 1057
+  },
+  "lizardman_crouch_N": {
+   "file": "lizardman_crouch_N.png",
+   "w": 69,
+   "h": 91,
+   "anchor": 0.7,
+   "srcW": 864,
+   "srcH": 1140
+  },
+  "lizardman_corpse": {
+   "file": "lizardman_corpse.png",
+   "w": 115,
+   "h": 86,
+   "anchor": 0.9,
+   "srcW": 827,
+   "srcH": 616
+  },
+  "gillman_stand_S": {
+   "file": "gillman_stand_S.png",
+   "w": 69,
+   "h": 138,
+   "anchor": 0.7,
+   "srcW": 668,
+   "srcH": 1339
+  },
+  "gillman_stand_SE": {
+   "file": "gillman_stand_SE.png",
+   "w": 82,
+   "h": 138,
+   "anchor": 0.7,
+   "srcW": 788,
+   "srcH": 1327
+  },
+  "gillman_stand_E": {
+   "file": "gillman_stand_E.png",
+   "w": 90,
+   "h": 138,
+   "anchor": 0.7,
+   "srcW": 798,
+   "srcH": 1225
+  },
+  "gillman_stand_NE": {
+   "file": "gillman_stand_NE.png",
+   "w": 83,
+   "h": 138,
+   "anchor": 0.7,
+   "srcW": 794,
+   "srcH": 1313
+  },
+  "gillman_stand_N": {
+   "file": "gillman_stand_N.png",
+   "w": 81,
+   "h": 138,
+   "anchor": 0.7,
+   "srcW": 712,
+   "srcH": 1209
+  },
+  "gillman_crouch_S": {
+   "file": "gillman_crouch_S.png",
+   "w": 58,
+   "h": 99,
+   "anchor": 0.7,
+   "srcW": 721,
+   "srcH": 1222
+  },
+  "gillman_crouch_SE": {
+   "file": "gillman_crouch_SE.png",
+   "w": 71,
+   "h": 99,
+   "anchor": 0.7,
+   "srcW": 835,
+   "srcH": 1165
+  },
+  "gillman_crouch_E": {
+   "file": "gillman_crouch_E.png",
+   "w": 89,
+   "h": 99,
+   "anchor": 0.7,
+   "srcW": 916,
+   "srcH": 1017
+  },
+  "gillman_crouch_NE": {
+   "file": "gillman_crouch_NE.png",
+   "w": 87,
+   "h": 99,
+   "anchor": 0.7,
+   "srcW": 935,
+   "srcH": 1060
+  },
+  "gillman_crouch_N": {
+   "file": "gillman_crouch_N.png",
+   "w": 64,
+   "h": 99,
+   "anchor": 0.7,
+   "srcW": 765,
+   "srcH": 1182
+  },
+  "gillman_corpse": {
+   "file": "gillman_corpse.png",
+   "w": 115,
+   "h": 96,
+   "anchor": 0.9,
+   "srcW": 814,
+   "srcH": 679
+  },
+  "fx_bolt_harpoon": {
+   "file": "fx_bolt_harpoon.png",
+   "w": 128,
+   "h": 19,
+   "anchor": 0.5,
+   "srcW": 800,
+   "srcH": 121
+  },
+  "fx_blood_cloud": {
+   "file": "fx_blood_cloud.png",
+   "w": 128,
+   "h": 125,
+   "anchor": 0.5,
+   "srcW": 881,
+   "srcH": 862
+  },
+  "fx_bubbles": {
+   "file": "fx_bubbles.png",
+   "w": 128,
+   "h": 207,
+   "anchor": 0.5,
+   "srcW": 327,
+   "srcH": 529
+  },
+  "fx_lamp_cone": {
+   "file": "fx_lamp_cone.png",
+   "w": 128,
+   "h": 92,
+   "anchor": 0.5,
+   "srcW": 1076,
+   "srcH": 773
+  }
+ }
+}

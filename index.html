@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aquanauts — Combat Prototype</title>
+    <script type="module" crossorigin src="/aquanauts-site/assets/index-C1bOUKqK.js"></script>
+    <link rel="stylesheet" crossorigin href="/aquanauts-site/assets/index-CtblFq9r.css">
+  </head>
+  <body>
+    <canvas id="battle"></canvas>
+
+    <div id="topbar">
+      <div class="brand">AQUANAUTS</div>
+      <div id="turn-info"></div>
+      <button id="help-btn" class="small">Controls (H)</button>
+      <button id="restart-btn" class="small">New mission</button>
+    </div>
+
+    <div id="hud">
+      <div id="roster"></div>
+      <div id="unit-panel">
+        <div id="unit-head">
+          <img id="unit-face" class="hidden" alt="" />
+          <div id="unit-name">—</div>
+          <div id="unit-kind"></div>
+        </div>
+        <div id="bars">
+          <div class="bar"><span class="lbl">TU</span><div class="track"><div id="bar-tu" class="fill tu"></div></div><span id="val-tu" class="val"></span></div>
+          <div class="bar"><span class="lbl">HP</span><div class="track"><div id="bar-hp" class="fill hp"></div></div><span id="val-hp" class="val"></span></div>
+          <div class="bar"><span class="lbl">MO</span><div class="track"><div id="bar-mo" class="fill mo"></div></div><span id="val-mo" class="val"></span></div>
+        </div>
+        <div id="weapon"></div>
+        <div id="actions"></div>
+      </div>
+      <div id="log"></div>
+    </div>
+
+    <div id="overlay" class="hidden">
+      <div id="overlay-box">
+        <h1 id="overlay-title"></h1>
+        <p id="overlay-text"></p>
+        <button id="overlay-btn">New mission</button>
+      </div>
+    </div>
+
+    <div id="help" class="hidden">
+      <div id="help-box">
+        <h2>Controls</h2>
+        <table>
+          <tr><td>Left click</td><td>Select aquanaut / move / fire at visible alien</td></tr>
+          <tr><td>Right click</td><td>Deselect / cancel</td></tr>
+          <tr><td>Middle drag, WASD, arrows</td><td>Pan camera</td></tr>
+          <tr><td>Mouse wheel</td><td>Zoom</td></tr>
+          <tr><td>1–8 / Tab</td><td>Select aquanaut / next with TUs</td></tr>
+          <tr><td>F</td><td>Cycle firing mode (Snap / Aimed / Burst)</td></tr>
+          <tr><td>C</td><td>Crouch / stand (4 / 8 TU)</td></tr>
+          <tr><td>R</td><td>Reload (15 TU)</td></tr>
+          <tr><td>Space</td><td>Centre camera on selected unit</td></tr>
+          <tr><td>Enter</td><td>End turn</td></tr>
+        </table>
+        <p class="muted">A round is 15 seconds. Every action spends time units; moving through kelp or debris costs more, diagonals cost half again. Kelp, coral and debris between you and the target can stop a shot. Crouching makes you harder to hit and steadier when firing. Dark water limits sight to 12 tiles — aliens see further.</p>
+        <button id="help-close">Close</button>
+      </div>
+    </div>
+
+  </body>
+</html>
